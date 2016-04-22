@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-//@EnableAutoConfiguration
-//@EnableWebMvc
 public class Application {
 
 	public static void main(String[] args) {

@@ -20,9 +20,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * @date 2016年4月22日 下午7:04:30
  */
 @Configuration
-//@ConditionalOnClass({ GroupTemplate.class })
 @EnableConfigurationProperties(BeetlProperties.class)
-//@AutoConfigureAfter(WebMvcAutoConfiguration.class)
 public class BeetlAutoConfiguration extends WebMvcConfigurerAdapter{
 
 	private static final Logger logger = LoggerFactory.getLogger(BeetlAutoConfiguration.class);
